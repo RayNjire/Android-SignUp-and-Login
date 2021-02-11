@@ -5,7 +5,7 @@
     {
         if ($db->dbConnect())
         {
-            if ($db->logIn("users", $_POST['username'], $_POST['password']))
+            if ($db->logIn("kemfri_users", $_POST['username'], $_POST['password']))
             {
                 echo "Login Successful";
                 

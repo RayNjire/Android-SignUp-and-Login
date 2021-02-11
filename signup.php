@@ -5,7 +5,7 @@
     {
         if ($db->dbConnect())
         {
-            if ($db->signUp("users", $_POST['firstname'], $_POST['lastname'], $_POST['emailaddress'], $_POST['username'], $_POST['password']))
+            if ($db->signUp("kemfri_users", $_POST['firstname'], $_POST['lastname'], $_POST['emailaddress'], $_POST['username'], $_POST['password']))
             {
                 echo "Sign Up Successful";
                 
