@@ -8,7 +8,7 @@
 
         public function __construct()
         {
-            $this->servername = 'localhost:8080';
+            $this->servername = '192.168.123.189:8080';
             $this->username = 'root';
             $this->password = '159357';
             $this->databasename = 'android_signupandlogin';
