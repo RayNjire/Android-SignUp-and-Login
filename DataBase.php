@@ -50,7 +50,7 @@
                 if ($dbusername == $username && password_verify(MD5($password), $dbpassword))
                 {
                     $login = true;
-
+                    
                 }
 
                 else $login = false;
@@ -63,17 +63,16 @@
 
         }
 
-        function signUp($table, $userid, $firstname, $lastname, $emailaddress, $username, $password)
+        function signUp($table, $firstname, $lastname, $emailaddress, $username, $password)
         {
-            $userid = $this->prepareData($userid);
             $firstname = $this->prepareData($firstname);
             $lastname = $this->prepareData($lastname);
             $emailaddress = $this->prepareData($emailaddress);
             $username = $this->prepareData($username);
             $password = $this->prepareData($password);
             
-            #$password = MD5($password, PASSWORD_DEFAULT);
-            $this->sql = "INSERT INTO " . $table . " (userid, firstname, lastname, emailaddress, username, password) VALUES ('','" . $firstname . "','" . $lastname . "','" . $emailaddress . "','" . $username . "', MD5('" . $password . "')";
+            //$password = MD5($password, PASSWORD_DEFAULT);
+            $this->sql = "INSERT INTO " . $table . " (userid, firstname, lastname, emailaddress, username, password) VALUES ('','" . $firstname . "','" . $lastname . "','" . $emailaddress . "','" . $username . "', '" . $password . "')";
             if (mysqli_query($this->connect, $this->sql))
             {
                 return true;
