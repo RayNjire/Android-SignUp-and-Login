@@ -1,6 +1,6 @@
 <?php
     require "DataBaseConfig.php";
-
+    
     class DataBase
     {
         public $connect;
@@ -10,7 +10,7 @@
         protected $username;
         protected $password;
         protected $databasename;
-
+        
         public function __construct()
         {
             $this->connect = null;
@@ -21,21 +21,22 @@
             $this->username = $dbc->username;
             $this->password = $dbc->password;
             $this->databasename = $dbc->databasename;
+            
         }
-
+        
         function dbConnect()
         {
             $this->connect = mysqli_connect($this->servername, $this->username, $this->password, $this->databasename);
             return $this->connect;
-
+            
         }
-
+        
         function prepareData($data)
         {
             return mysqli_real_escape_string($this->connect, stripslashes(htmlspecialchars($data)));
-
+            
         }
-
+        
         function logIn($table, $username, $password)
         {
             $username = $this->prepareData($username);
@@ -47,20 +48,20 @@
             {
                 $dbusername = $row['username'];
                 $dbpassword = $row['password'];
-                if ($dbusername == $username && password_verify(MD5($password), $dbpassword))
+                if ($dbusername == $username && password_verify($password, $dbpassword))
                 {
                     $login = true;
                     
                 }
-
+                
                 else $login = false;
-
+                
             }
-
+            
             else $login = false;
-
+            
             return $login;
-
+            
         }
 
         function signUp($table, $firstname, $lastname, $emailaddress, $username, $password)
