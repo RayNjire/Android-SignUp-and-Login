@@ -11,11 +11,11 @@
                 
             }
             
-            else echo "Username or Password is Wrong";
+            else echo "The Username or Password is Wrong";
             
         }
 
-        else echo "Error: Database connection";
+        else echo "Error: Database Connection";
         
     }
     

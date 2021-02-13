@@ -71,7 +71,7 @@
             $username = $this->prepareData($username);
             $password = $this->prepareData($password);
             
-            //$password = MD5($password, PASSWORD_DEFAULT);
+            $password = password_hash($password, PASSWORD_DEFAULT);
             $this->sql = "INSERT INTO " . $table . " (userid, firstname, lastname, emailaddress, username, password) VALUES ('','" . $firstname . "','" . $lastname . "','" . $emailaddress . "','" . $username . "', '" . $password . "')";
             if (mysqli_query($this->connect, $this->sql))
             {
