@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31fb597b-92ab-4eb8-93a7-df671decd16e" name="Default Changelist" comment="">
+    <list default="true" id="31fb597b-92ab-4eb8-93a7-df671decd16e" name="Default Changelist" comment="Added Password Hash Function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/DataBase.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
@@ -41,8 +41,16 @@
       <option name="presentableId" value="Default" />
       <updated>1613033648355</updated>
       <workItem from="1613033671547" duration="5158000" />
-      <workItem from="1613215440533" duration="1770000" />
+      <workItem from="1613215440533" duration="2060000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Password Hash Function">
+      <created>1613217516729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613217516729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,5 +67,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Password Hash Function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Password Hash Function" />
   </component>
 </project>
