@@ -11,7 +11,7 @@
                 
             }
             
-            else echo "Sign Up Failed";
+            else echo "Sign Up Failed, UserName or Email is already in use";
             
         }
         
