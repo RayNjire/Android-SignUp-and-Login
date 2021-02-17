@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22d8e26c-f307-4b08-adf0-39d10c162fcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Localhost/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Localhost/.idea/Android Signup and Login.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Localhost/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Localhost/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Localhost/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Localhost/DataBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Localhost/DataBaseConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Localhost/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Localhost/signup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Remotely (heliohost.org)/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Remotely (heliohost.org)/.idea/Android Signup and Login.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Remotely (heliohost.org)/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Remotely (heliohost.org)/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Remotely (heliohost.org)/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Remotely (heliohost.org)/DataBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Remotely (heliohost.org)/DataBaseConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Remotely (heliohost.org)/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Remotely (heliohost.org)/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBaseConfig.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" />
-    </list>
+    <list default="true" id="22d8e26c-f307-4b08-adf0-39d10c162fcf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +37,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613481550905</updated>
-      <workItem from="1613481568555" duration="356000" />
+      <workItem from="1613481568555" duration="451000" />
     </task>
     <servers />
   </component>
