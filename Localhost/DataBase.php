@@ -37,7 +37,7 @@
             
         }
         
-        function logIn($table, $username, $password)
+        function loginUserName($table, $username, $password)
         {
             $username = $this->prepareData($username);
             $password = $this->prepareData($password);
@@ -56,6 +56,37 @@
                 {
                     $login = true;
                     
+                }
+                
+                else $login = false;
+                
+            }
+            
+            else $login = false;
+    
+            return $login;
+            
+        }
+        
+        function loginEmail($table, $emailaddress, $password)
+        {
+            $emailaddress = $this->prepareData($emailaddress);
+            $password = $this->prepareData($password);
+        
+            $this->sql = "select * from " . $table . " where emailaddress = '" . $emailaddress . "'";
+            $result = mysqli_query($this->connect, $this->sql);
+            $row = mysqli_fetch_assoc($result);
+            
+            if (mysqli_num_rows($result) != 0)
+            {
+                $dbemail = $row['EmailAddress'];
+                $dbpassword = $row['Password'];
+                $realpass = password_verify($password, $dbpassword);
+            
+                if ($dbemail == $emailaddress && $realpass)
+                {
+                    $login = true;
+                
                 }
                 
                 else $login = false;
